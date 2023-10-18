@@ -6,12 +6,11 @@
 /*   By: agrimald <agrimald@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/17 21:54:19 by agrimald          #+#    #+#             */
-/*   Updated: 2023/10/18 18:32:54 by agrimald         ###   ########.fr       */
+/*   Updated: 2023/10/18 19:57:02 by agrimald         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdlib.h>
+#include "brainfuck.h"
 
 void	ft_brainfuck(char *str)
 {
