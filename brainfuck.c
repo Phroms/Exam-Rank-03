@@ -69,7 +69,7 @@ int main(int argc, char **argv)
 	return (0);
 }
 
-	/*	Otro tipo de Main */
+	/*	Otro tipo de Main	*/
 
 /*
 #include <stdio.h>
