@@ -71,6 +71,7 @@ int main(int argc, char **argv)
 	/*	Otro tipo de Main	*/
 
 /*
+
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
@@ -125,4 +126,5 @@ int main() {
 
     return 0;
 }
+
 */
