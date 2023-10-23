@@ -19,4 +19,6 @@
 void	ft_brainfuck(char *str);
 int		main(int argc, char **argv);
 
+#hola
+
 #endif
