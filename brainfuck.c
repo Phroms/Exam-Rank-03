@@ -79,7 +79,8 @@ int main(int argc, char **argv)
 
 void ft_brainfuck(char *str);
 
-int main() {
+int main() 
+{
     char hello_world[] = "++++++++[>++++[>++>+++>+++>+<<<<-]>+.-.>++.+++.>++.<<-----.>+.>.+++.------.>-.>+.>.";
 
     printf("Brainfuck Program: %s\n", hello_world);
@@ -120,10 +121,11 @@ int main() {
     // Compare the expected output with the actual output
     if (strcmp(output, "Hello, World!\n") == 0) {
         printf("Test Passed: Brainfuck program produced the expected output.\n");
-    } else {
+    } 
+    else 
+    {
         printf("Test Failed: Brainfuck program did not produce the expected output.\n");
     }
-
     return 0;
 }
 
