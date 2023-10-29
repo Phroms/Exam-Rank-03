@@ -3,7 +3,8 @@ Expected files   : ft_printf.c
 Allowed functions: malloc, free, write, va_start, va_arg, va_copy, va_end
 --------------------------------------------------------------------------------
 
-Escribe una función llamada `ft_printf` que imitará al verdadero `printf`, pero gestionará solo las siguientes conversiones: s, d y x.
+Escribe una función llamada `ft_printf` que imitará al verdadero `printf`, pero
+gestionará solo las siguientes conversiones: s, d y x.
 
 Tu función debe ser declarada de la siguiente manera:
 
@@ -14,11 +15,11 @@ Para probar tu programa, compara los resultados con el verdadero `printf`.
 
 Ejemplos de la salida de la función:
 
-Llamada: ft_printf("%s\n", "toto");
-Resultado: toto$
+call: ft_printf("%s\n", "toto");
+out: toto$
 
-Llamada: ft_printf("Magia %s es %d", "número", 42);
-Resultado: Magia número es 42%
+call: ft_printf("Magic %s is %d", "number", 42);
+out: Magic number is 42%
 
-Llamada: ft_printf("Hexadecimal para %d es %x\n", 42, 42);
-Resultado: Hexadecimal para 42 es 2a$
+call: ft_printf("Hexadecimal for %d is %x\n", 42, 42);
+out: Hexadecimal for 42 is 2a$
