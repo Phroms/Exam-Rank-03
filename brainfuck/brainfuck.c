@@ -6,13 +6,12 @@
 /*   By: agrimald <agrimald@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/17 21:54:19 by agrimald          #+#    #+#             */
-/*   Updated: 2023/11/07 21:25:43 by agrimald         ###   ########.fr       */
+/*   Updated: 2023/11/07 21:26:29 by agrimald         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "brainfuck.h"
 
-holaaaaaaaaaaaaaaaaaaaaaaaaaaa
 void	ft_brainfuck(char *str)
 {
 	char bytes[2048] = {0};
